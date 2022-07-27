@@ -49,7 +49,7 @@ function validation() {
         if ((document.getElementById(win[i][0]).innerHTML === 'X' && document.getElementById(win[i][1]).innerHTML === 'X' && document.getElementById(win[i][2]).innerHTML === 'X') ||
             (document.getElementById(win[i][0]).innerHTML === 'O' && document.getElementById(win[i][1]).innerHTML === 'O' && document.getElementById(win[i][2]).innerHTML === 'O')){
             alert(`Player ${currentPlayer} wins!`)
-            setTimeout(restartGame(), 3000)
+            setTimeout(restartGame(), 10000)
         } 
     }
 }
